@@ -75,5 +75,5 @@ const border = 4;
 const res1 = classTest.getFirstName(firstName, lastName, fullName, border, 0);
 const res2 = classTest.getLastName(firstName, lastName, fullName, border, 1);
 
-console.log('TEST 1> First Name', res1);
+console.log('TEST > First Name', res1);
 console.log('TEST > Last Name', res2);
