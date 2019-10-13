@@ -15,8 +15,7 @@
         if (!firstName && !lastName && fullName) {
             const fullNameParts: string[] = this.getFNameParts(fullName);
             border = this.countBorder(border, fullNameParts.length, strategyFavor);
-            console.log('fullNameParts', fullNameParts);
-            console.log('border', border);
+
             return fullNameParts.slice(0, border).join(' ');
         }
 
@@ -70,7 +69,7 @@
 const classTest = new UserNameResolverService();
 const firstName = '';
 const lastName = '';
-const fullName = 'G M T Dulll';
+const fullName = 'G M T Dulll ';
 const border = 4;
 
 const res1 = classTest.getFirstName(firstName, lastName, fullName, border, 0);
